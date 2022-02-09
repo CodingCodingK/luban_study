@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 0,
+    "Color": 4,
+    "Quality": 2,
+    "Name": "眼球",
+    "ATK": 100,
+    "DEF": 20,
+    "SPD": 80
+  },
+  {
+    "Id": 1,
+    "Color": 4,
+    "Quality": 2,
+    "Name": "次元碎片",
+    "ATK": 120,
+    "DEF": 0,
+    "SPD": 100
+  },
+  {
+    "Id": 2,
+    "Color": 1,
+    "Quality": 1,
+    "Name": "无限",
+    "ATK": 999,
+    "DEF": 999,
+    "SPD": 0
+  },
+  {
+    "Id": 3,
+    "Color": 2,
+    "Quality": 12,
+    "Name": "塔拉夏的眼球",
+    "ATK": 80,
+    "DEF": 100,
+    "SPD": 80
+  },
+  {
+    "Id": 4,
+    "Color": 1,
+    "Quality": 8,
+    "Name": "眼光",
+    "ATK": 20,
+    "DEF": 100,
+    "SPD": 200
+  },
+  {
+    "Id": 5,
+    "Color": 1,
+    "Quality": 8,
+    "Name": "NPC赌来的法杖",
+    "ATK": 120,
+    "DEF": 20,
+    "SPD": 20
+  }
+]

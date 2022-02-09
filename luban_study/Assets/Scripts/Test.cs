@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using cfg;
-using cfg.item;
+using cfg.Datas;
+using cfg.Constants;
 using SimpleJSON;
 using System.IO;
 
@@ -12,8 +13,8 @@ public class Test : MonoBehaviour
     void Start()
     {
         Tables table = new Tables(Loader);
-        Item item = table.TbItem.Get(10010);
-        Debug.Log($"{item.Name}    {item.Desc}");
+        Equip equip = table.Weapon.Get(1);
+        Debug.Log($"{equip.Name}    {equip.Color}    {equip.Quality}");
     }
 
     private JSONNode Loader(string fileName)
