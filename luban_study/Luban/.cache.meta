@@ -1,16 +1,8 @@
-﻿D:/github/luban_study/luban_study/Assets/Gen/Constants/Color.cs,2F34F575CD7EF495889EEDC71623F1,734,1644423122312
-D:/github/luban_study/luban_study/Assets/Gen/Constants/Quality.cs,8FD2EDEBE5B5717F7A8A34766E76,1029,1644423122312
-D:/github/luban_study/luban_study/Assets/Gen/Datas/Equip.cs,5A39C014B16335751F28BC688FFFB,2495,1644423122312
-D:/github/luban_study/luban_study/Assets/Gen/Datas/Weapon.cs,116A996611783E77AABD32B65205B28,2317,1644423122312
-D:/github/luban_study/luban_study/Assets/Gen/Tables.cs,BF927D825F8B51962A5D6AE0ED307654,1010,1644423122312
-D:/github/luban_study/luban_study/Assets/Gen/TbItem.cs,A2B7E66AC28CF6AC69DDCEF44347B28D,1722,1644420582547
-D:/github/luban_study/luban_study/Assets/Gen/test/AccessFlag.cs,2E7F1994415B8B212F297C1553FD2B51,545,1644419292755
-D:/github/luban_study/luban_study/Assets/Gen/test/Item.cs,4B9A85EACDD39289783EFC3C1441171,3684,1644420582547
-D:/github/luban_study/luban_study/Assets/Gen/test/Quality.cs,B1FF58A9D51F304344806D258CD5E176,748,1644420385103
-D:/github/luban_study/luban_study/Assets/Gen/Weapon.cs,FE81594EC56CCFE43BB84F989152C7C5,1754,1644423122312
-D:/github/luban_study/luban_study/GenerateDatas/json/tbitem.json,2EB3B963B1179787C67CCEA886B13,2022,1644420582547
-D:/github/luban_study/luban_study/GenerateDatas/json/weapon.json,629F338048748024C491F07D85908F3A,827,1644423122301
-D:/github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/__beans__.xlsx,3F8818DCB4A8DE19FB5091020F35C5E,9705,1644422050429
-D:/github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/__enums__.xlsx,CF50B0411449C26A378651254BA32DB2,9708,1644423118915
-D:/github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/__tables__.xlsx,BCDD2BD22161F73483BBC9EEDA2AAE24,9479,1644422089196
-D:/github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/datas/equips.xlsx,5E7D5701B38137A43AC62A12D38C80,9479,1644423086389
+﻿E:/My Github/luban_study/luban_study/Assets/Gen/test.proto,AC535632259673AF31948A3B2481F64,1195,1644561598039
+E:/My Github/luban_study/luban_study/GenerateDatas/json/weapon.json,47E9A8C028B066E29B85B7791BA48B7,69135,1644561217791
+E:/My Github/luban_study/luban_study/GenerateDatas/proto2/weapon.bytes,45478D9D5CE628B39729975EDE8E64,14030,1644561598033
+E:/My Github/luban_study/luban_study/Luban/Gen/test.proto,AC535632259673AF31948A3B2481F64,1195,1644562352963
+E:/My Github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/__beans__.xlsx,3F8818DCB4A8DE19FB5091020F35C5E,9705,1644457108156
+E:/My Github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/__enums__.xlsx,CF50B0411449C26A378651254BA32DB2,9708,1644457108156
+E:/My Github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/__tables__.xlsx,9F97C8AED1AD3F2B8462E616894EF3CC,9474,1644457108157
+E:/My Github/luban_study/luban_study/Luban/MiniDesignerConfigsTemplate/Datas/datas/equips.xlsx,7D61AF5FA7E63662D5FB3FD52D1612F,27663,1644561199386
