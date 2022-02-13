@@ -52,42 +52,58 @@
   <ItemGroup>
      <Compile Include="Assets\LubanLib\SimpleJSON\SimpleJSON.cs" />
      <Compile Include="Assets\Scripts\Test.cs" />
-     <Compile Include="Assets\LubanLib\BeanBase.cs" />
-     <Compile Include="Assets\LubanLib\ByteBuf.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Net\Codecs\Rpc.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Net\Codecs\IProtocolAllocator.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Serialization\ByteBuf.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Serialization\SerializationException.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Serialization\BeanBase.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Core\Threading\AtomicLong.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Core\Common\StringUtil.cs" />
      <Compile Include="Assets\Scripts\Test2.cs" />
-     <Compile Include="Assets\LubanLib\ITypeId.cs" />
-     <Compile Include="Assets\LubanLib\StringUtil.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Net\Codecs\UnknownProtocolException.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Core\Common\NotNullInitialization.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Net\Codecs\Protocol.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Serialization\FieldTag.cs" />
+     <Compile Include="Assets\Gen\ProtocolStub.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Serialization\ITypeId.cs" />
+     <Compile Include="Assets\Gen\test\NetMsg.cs" />
+     <Compile Include="Assets\Gen\test\Ping.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Serialization\ISerializable.cs" />
+     <Compile Include="Assets\Gen\test\LoginInfo.cs" />
+     <Compile Include="Assets\Gen\test\RspLogin.cs" />
+     <Compile Include="Assets\LubanLib\Bright.Serialization\EUnmarshalError.cs" />
      <Compile Include="Assets\LubanLib\SimpleJSON\SimpleJSONBinary.cs" />
      <Compile Include="Assets\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
      <Compile Include="Assets\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs" />
-     <Compile Include="Assets\Gen\test.cs" />
+     <Compile Include="Assets\Gen\test\CMD.cs" />
+     <Compile Include="Assets\Gen\test\ReqLogin.cs" />
      <None Include="Assets\LubanLib\SimpleJSON\Changelog.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/My Github/luban_study/luban_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -278,32 +294,32 @@
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
- <Reference Include="protobuf-net">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/protobuf-net.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
- </Reference>
- <Reference Include="System.Buffers">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Buffers.dll</HintPath>
+ <Reference Include="Kcp">
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/Kcp.dll</HintPath>
  </Reference>
  <Reference Include="protobuf-net.Core">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/protobuf-net.Core.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/protobuf-net.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/protobuf-net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Buffers">
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Collections.Immutable">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Collections.Immutable.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks.Extensions">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Threading.Tasks.Extensions.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Collections.Immutable.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Memory.dll</HintPath>
- </Reference>
- <Reference Include="Kcp">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/Kcp.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="System.Numerics.Vectors">
- <HintPath>E:/My Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Numerics.Vectors.dll</HintPath>
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Extensions">
+ <HintPath>C:/Github/luban_study/luban_study/Assets/CodingK_SessionLib/System.Threading.Tasks.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

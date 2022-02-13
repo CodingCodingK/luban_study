@@ -1,0 +1,42 @@
+[
+  {
+    "skill_id": 0,
+    "skill_time": 10,
+    "skill_name": "技能0"
+  },
+  {
+    "skill_id": 1,
+    "skill_time": 20,
+    "skill_name": "技能1"
+  },
+  {
+    "skill_id": 2,
+    "skill_time": 30,
+    "skill_name": "技能2"
+  },
+  {
+    "skill_id": 3,
+    "skill_time": 40,
+    "skill_name": "技能3"
+  },
+  {
+    "skill_id": 4,
+    "skill_time": 50,
+    "skill_name": "技能4"
+  },
+  {
+    "skill_id": 5,
+    "skill_time": 60,
+    "skill_name": "技能5"
+  },
+  {
+    "skill_id": 6,
+    "skill_time": 70,
+    "skill_name": "技能6"
+  },
+  {
+    "skill_id": 7,
+    "skill_time": 80,
+    "skill_name": "技能7"
+  }
+]
