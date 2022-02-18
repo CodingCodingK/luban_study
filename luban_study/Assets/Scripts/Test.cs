@@ -56,6 +56,7 @@ public class Test : MonoBehaviour
         Debug.Log(bf.Bytes.Length);
         var bytes = bf.CopyData();
         Debug.Log(bytes.Length);
+        
         var newBf = new ByteBuf(bytes);
         Debug.Log(newBf.Bytes.Length);
         var newMsg = new NetMsg();
